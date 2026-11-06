@@ -17,37 +17,3 @@ if ('IntersectionObserver' in window) {
     if (section) observer.observe(section);
   }
 }
-
-// The rail also works with native touch/trackpad scrolling and without JavaScript.
-const certificateTrack = document.getElementById('certificate-track');
-if (certificateTrack) {
-  const previous = document.getElementById('certificates-prev');
-  const next = document.getElementById('certificates-next');
-  const controls = document.querySelector('.certificate-controls');
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const updateControls = () => {
-    previous.disabled = certificateTrack.scrollLeft <= 2;
-    next.disabled = certificateTrack.scrollLeft + certificateTrack.clientWidth >= certificateTrack.scrollWidth - 2;
-  };
-  const move = direction => {
-    const card = certificateTrack.querySelector('li');
-    const gap = parseFloat(getComputedStyle(certificateTrack).columnGap) || 0;
-    certificateTrack.scrollBy({
-      left: direction * (card.getBoundingClientRect().width + gap),
-      behavior: reducedMotion.matches ? 'instant' : 'smooth'
-    });
-  };
-  controls.hidden = false;
-  previous.addEventListener('click', () => move(-1));
-  next.addEventListener('click', () => move(1));
-  certificateTrack.addEventListener('scroll', updateControls, { passive: true });
-  certificateTrack.addEventListener('keydown', event => {
-    if (event.target !== certificateTrack) return;
-    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
-      event.preventDefault();
-      move(event.key === 'ArrowLeft' ? -1 : 1);
-    }
-  });
-  window.addEventListener('resize', updateControls);
-  updateControls();
-}

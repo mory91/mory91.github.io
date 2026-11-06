@@ -26,6 +26,6 @@ Career content comes from ~/codes/cv/memory_bank/CAREER.md and PROJECTS.md, revi
 
 ## Courses and certificates
 
-The horizontal certificate row contains the eight supplied credential links. It supports touch/trackpad scrolling, previous/next buttons, keyboard arrows when focused, and reduced-motion preferences. Without JavaScript, native horizontal scrolling and all links remain available. Print layout includes every card.
+The compact certificate grid displays all eight credential links in three columns on larger screens, two on tablets, and one on small phones. It has no horizontal scrolling or carousel controls; all cards work without JavaScript and appear in print.
 
 Course names and completion dates were checked against the Maven wrap-up pages and Coursera public verification pages on November 6, 2026. The Scratch to Scale title follows the certificate image (the current wrap-up page uses “Real-World HPC Training”). Coursera’s specialization metadata confirms Deep Learning and all five associated course IDs. Original user-supplied certificate URLs are retained.
