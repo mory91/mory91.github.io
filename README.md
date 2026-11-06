@@ -16,6 +16,7 @@ Create a public repository named `mory91.github.io` and push these files to its 
 - `styles.css`: colors, typography, responsive layout, and print styles.
 - `script.js`: current year and active section navigation. Content works without JavaScript.
 - `favicon.svg`: original monogram.
+- `assets/morteza-hosseini.jpg`: profile photo, framed around the face and shoulders using `.profile-photo` CSS. The source photo is unaltered.
 
 Design direction inspired by https://kozoriz.com/: warm paper colors, serif typography, a profile sidebar, and an editorial résumé layout. All implementation and decorative artwork here are original; no reference-site photos or illustrations were copied.
 
