@@ -18,6 +18,6 @@ Create a public repository named `mory91.github.io` and push these files to its 
 - `favicon.svg`: original monogram.
 - `assets/morteza-hosseini.jpg`: profile photo, framed around the face and shoulders using `.profile-photo` CSS. The source photo is unaltered.
 
-Design direction inspired by https://kozoriz.com/: warm paper colors, serif typography, a profile sidebar, and an editorial résumé layout. All implementation and decorative artwork here are original; no reference-site photos or illustrations were copied.
+Design direction inspired by https://kozoriz.com/: warm paper colors, monospace typography, a profile sidebar, and an editorial résumé layout, with additional SVG icons. All implementation and decorative artwork here are original; no reference-site photos or illustrations were copied.
 
 Career content comes from ~/codes/cv/memory_bank/CAREER.md and PROJECTS.md, reviewed November 6, 2026. Older draft benchmarks and outdated contribution statuses were excluded. This repository contains no private employer code or application notes.
