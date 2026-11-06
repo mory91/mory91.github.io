@@ -79,7 +79,7 @@ nav a[aria-current] { color: var(--accent); }
 .job-mark img { width: 30px; height: 30px; max-width: 30px; object-fit: contain; }
 .job-heading { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; }
 .date { font-size: 10px; color: var(--muted); white-space: nowrap; }
-.company-link { display: inline-flex; align-items: center; gap: 7px; text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1px; text-decoration-color: #c8b4a5; }
+.company-link { display: inline-flex; align-items: center; gap: 7px; text-decoration: none; }
 .company-link .icon { width: 13px; height: 13px; flex-basis: 13px; color: var(--accent); }
 .job-links { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 14px; }
 .job-role { color: var(--ink); font-size: 11px; margin: 6px 0 10px; }
