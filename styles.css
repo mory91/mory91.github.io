@@ -84,6 +84,7 @@ nav a[aria-current] { color: var(--accent); }
 .job-links { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 14px; }
 .job-role { color: var(--ink); font-size: 11px; margin: 6px 0 10px; }
 .job p:not(.job-role) { font-size: 13px; }
+.job-description > p + p { margin-top: 12px; }
 .previous-role { margin-top: 17px; }
 .project { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 16px; padding: 24px 0; }
 .project + .project { border-top: 1px solid var(--line); }
