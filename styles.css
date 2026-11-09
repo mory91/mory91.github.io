@@ -5,6 +5,7 @@
   --ink: #281b15;
   --muted: #71645c;
   --accent: #b8412b;
+  --portrait-color: var(--accent);
   --line: #e5dcd3;
   --wash: #f1e9e0;
   --card: #fffaf5;
@@ -22,6 +23,7 @@
     --ink: #efe6de;
     --muted: #b8aaa0;
     --accent: #e68f74;
+    --portrait-color: var(--ink);
     --line: #423831;
     --wash: #2b2521;
     --card: #25211e;
@@ -36,6 +38,7 @@
     --ink: #efe6de;
     --muted: #b8aaa0;
     --accent: #e68f74;
+    --portrait-color: var(--ink);
     --line: #423831;
     --wash: #2b2521;
     --card: #25211e;
