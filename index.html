@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#fbf5ef"><link rel="canonical" href="https://mory91.github.io/">
 <meta property="og:type" content="website"><meta property="og:title" content="Morteza Hosseini — Senior Software Engineer"><meta property="og:description" content="Distributed systems, databases, and ML inference. Based in Vancouver."><meta property="og:url" content="https://mory91.github.io/">
 <script src="theme.js?v=33e5ca4af6"></script>
-<link rel="icon" href="favicon.svg?v=3decffe3e0" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=fbbc61e8ed">
+<link rel="icon" href="favicon.svg?v=3decffe3e0" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=5b14a30daf">
 <script src="script.js?v=0ea9660da5" defer></script>
 </head>
 <body id="top">
@@ -16,7 +16,14 @@
 <a class="skip" href="#main">Skip to content</a>
 <aside class="profile" aria-label="Profile">
   <div class="profile-intro">
-    <img class="profile-photo" src="assets/morteza-portrait.svg" alt="Morteza Hosseini" width="88" height="88" fetchpriority="high">
+    <svg class="profile-photo" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 1254 1254" role="img" aria-labelledby="portrait-title">
+      <title id="portrait-title">Line portrait of Morteza Hosseini</title>
+      <defs>
+        <filter id="portrait-alpha" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0"/></filter>
+        <mask id="portrait-lines" maskUnits="userSpaceOnUse" x="0" y="0" width="1254" height="1254"><image href="assets/morteza-line-portrait.png" width="1254" height="1254" filter="url(#portrait-alpha)"/></mask>
+      </defs>
+      <rect width="1254" height="1254" fill="var(--accent)" mask="url(#portrait-lines)"/>
+    </svg>
     <p class="profile-name">Morteza Hosseini</p>
     <p class="role">Senior Software Engineer</p>
     <p class="profile-summary">Building distributed services, database infrastructure, and faster inference systems.</p>
