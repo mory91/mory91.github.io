@@ -147,7 +147,6 @@ nav a[aria-current] { color: var(--accent); }
 .education p { font-size: 13px; }
 .education-links { display: flex; gap: 12px 20px; flex-wrap: wrap; margin-top: 14px; }
 .contact { padding: 56px 0 64px; border-top: 1px solid var(--line); text-align: center; }
-.contact-star { display: block; color: var(--accent); font-size: 44px; line-height: 1; margin-bottom: 24px; }
 .contact h2 { font-size: 32px; letter-spacing: -1.4px; margin: 12px 0 18px; }
 .contact > p:not(.eyebrow) { font-size: 13px; }
 .contact .button { margin-top: 24px; }
