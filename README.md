@@ -15,7 +15,9 @@ Create a public repository named `mory91.github.io` and push these files to its 
 - `index.html`: biography, work, experience, education, and links.
 - `styles.css`: colors, typography, responsive layout, and print styles.
 - `script.js`: current year and active section navigation. Content works without JavaScript.
-- `assets/monogram.svg` and `favicon.svg`: original ink-colored m with terracotta round glasses.
+- `theme.js`: applies the saved light/dark preference before first paint, follows the device setting by default, and powers the accessible header toggle. If browser storage is blocked, switching still works for the current visit.
+- Dark colors use the same warm palette; company logos keep their original colors, and print uses the light palette. CSS follows the device theme even without JavaScript.
+- `assets/monogram.svg` and `favicon.svg`: original ink-colored m with terracotta round glasses. The header uses the same SVG paths inline so the mark follows the selected theme.
 - `assets/morteza-portrait.svg`: bounded square crop of the unmodified source photo.
 - `assets/companies/`: logos downloaded from the organizations’ official websites; URLs are recorded in `sources.json`.
 - Proud’s description is based on `~/codes/proud/README.md`.
